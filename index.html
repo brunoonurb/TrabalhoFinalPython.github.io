@@ -16,108 +16,150 @@
 <body>
 
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-info bg-dark">
-      <a class="navbar-brand" href="index.php"><img src="./img/python.png" height="30" /></a>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <a class="navbar-brand" href="index.html"><img src="./img/python.png" height="30" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-         
+          <li class="nav-item active">
+            <a class="nav-link text-white font-weight-bold" href="Media_Semanal_Likes_Views.html">Media Semanal de Views
+              e Likes <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-bold" href="Media_Mensal.html">Media Mensal de Views</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-bold" href="Media_Semana_Mensal.html">Media Semanal Mesnal de
+              Views</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-bold" href="Relacao_Telas_Finais.html">Aproveitamento Telas
+              Finais</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white font-weight-bold" href="Relacao_Anuncios.html">Relaçao de Anuncios <span
+                class="sr-only">(current)</span></a>
+          </li>
+
         </ul>
       </div>
     </nav>
 
-
-
-    <div class="row mt-5">
-     
-    <div class="card-deck mt-5">
+    <div class="row mt-3">
       <div class="col-1"></div>
-      <div class="card col-3">
-        <div class="row mt-1">
-          <div class=""></div>
-          <div class="col-8"><img src="./img/python.png" height="320" /></div>
-          <div class=""></div>
+      <div class="col-9">
+        <div class="row">
+          <p class="text-center font-weight-bold">Introdução</p>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Python</h5>
-          <p class="card-text">Python é software livre e 100% orientada a objetos.
-            A linguagem Python é muito usada nos campos de inteligência artificial,
-            computação 3D, biotecnologia e realidade virtual,
-            graças à essa simplicidade, versatilidade e capacidade de processamento. </p>
-          <p class="card-text"><small class="text-muted"><a
-                href="https://www.python.org/">https://www.python.org/</a></small></p>
+        <div class="row">
+          Analisando os ambientes VS CODE, Jupyter Notebook e PyCharm, foi escolhido o Py Charm por ser um ambiente mais
+          conhecido e já ajustado com as nossas necessidades em relação ao Python.  Foram utilizadas bibliotecas como
+          Pandas para manipular os dados além da biblioteca OS e xmlWriter para auxiliar no manuseio de arquivos em
+          Excel. Para criar os gráficos foi utilizado dois módulos da biblioteca Ploty, a express e a graph objs.Foi
+          criado uma página online com a função github pages para melhor visualização dos gráficos. A análise dos dados
+          foi separada em diversos gráficos, que em conjunto formam uma conclusão do comportamento humano sobre diversos
+          fatores.
         </div>
+
       </div>
-      <div class="card col-3">
-        <div class="row mt-1">
-          <div class=""></div>
-          <div class="col-8"><img src="./img/panddas.png" height="320" /></div>
-          <div class=""></div>
-        </div>
-        <div class="card-body">
-          <div class=""></div>
-          <h5 class="card-title">Pandas</h5>
-          <p class="card-text">O Pandas é uma biblioteca do Python utilizada para análise e
-            manipulação de dados e nos permite trabalhar de forma rápida e eficiente com arquivos do
-            tipo csv,excel,txt,etc</p>
-          <p class="card-text"><small class="text-muted"><a
-                href="https://pandas.pydata.org/">https://pandas.pydata.org/</a></small></p>
-        </div>
-      </div>
-      <div class="card col-3">
-        <div class="row mt-1">
-          <div class=""></div>
-          <div class="col-8"><img src="./img/plotly.png" height="320" /></div>
-          <div class=""></div>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Plotly</h5>
-          <p class="card-text">O Matplotlib é uma biblioteca para a visualização de dados em Python.
-            Ele apresenta uma API orientada a objetos que permite a criação de gráficos em 2D de uma forma simples e com
-            poucos comandos. A ferramenta disponibiliza diversos tipos de gráficos, como em barra,
-            em linha, em pizza, histogramas entre outras opções.</p>
-          <p class="card-text"><small class="text-muted"><a
-                href="https://plotly.com/python/">https://plotly.com/python/</a></small></p>
-        </div>
-      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-1"></div>
+      <p class="text-center font-weight-bold">Principais Tecnologias</p>
     </div>
 
     <div class="row">
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
-    </div>
-    <div class="row">
-      <div class="col-8"></div>
-      <div class="col-4">
+      <hr class="mt-1">
+      <div class="card-deck">
+        <div class="col-1"></div>
+        <div class="card col-3">
+          <div class="row mt-1">
+            <div class=""></div>
+            <div class="col-8"><img src="./img/python.png" height="320" /></div>
+            <div class=""></div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text">Python é software livre e 100% orientada a objetos.
+              A linguagem Python é muito usada nos campos de inteligência artificial,
+              computação 3D, biotecnologia e realidade virtual,
+              graças à essa simplicidade, versatilidade e capacidade de processamento. </p>
+            <p class="card-text"><small class="text-muted"><a
+                  href="https://www.python.org/">https://www.python.org/</a></small></p>
+          </div>
+        </div>
+        <div class="card col-3">
+          <div class="row mt-1">
+            <div class=""></div>
+            <div class="col-8"><img src="./img/panddas.png" height="320" /></div>
+            <div class=""></div>
+          </div>
+          <div class="card-body">
+            <div class=""></div>
+            <h5 class="card-title">Pandas</h5>
+            <p class="card-text">O Pandas é uma biblioteca do Python utilizada para análise e
+              manipulação de dados e nos permite trabalhar de forma rápida e eficiente com arquivos do
+              tipo csv,excel,txt,etc</p>
+            <p class="card-text"><small class="text-muted"><a
+                  href="https://pandas.pydata.org/">https://pandas.pydata.org/</a></small></p>
+          </div>
+        </div>
+        <div class="card col-3">
+          <div class="row mt-1">
+            <div class=""></div>
+            <div class="col-8"><img src="./img/plotly.png" height="320" /></div>
+            <div class=""></div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Plotly</h5>
+            <p class="card-text">O Matplotlib é uma biblioteca para a visualização de dados em Python.
+              Ele apresenta uma API orientada a objetos que permite a criação de gráficos em 2D de uma forma simples e
+              com
+              poucos comandos. A ferramenta disponibiliza diversos tipos de gráficos, como em barra,
+              em linha, em pizza, histogramas entre outras opções.</p>
+            <p class="card-text"><small class="text-muted"><a
+                  href="https://plotly.com/python/">https://plotly.com/python/</a></small></p>
+          </div>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col-8"></div>
+        <div class="col-4">
+
+        </div>
       </div>
     </div>
-  </div>
 
 
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
-<footer class="sticky-footer bg-dark mt-5 mb-3 text-white" style="height: 100px;">
+<footer class="fixed-botton bg-dark mt-5 mb-3 text-white" style="height: 100px; position: fixed;
+bottom:0; width: 100%;">
   <div class="container mt-5">
     <div class="text-center ">
-      <span>Copyright &copy; Bruno Pedroso & Thiago Andrade</span>
+      <span>Copyright &copy; Bruno Pedroso & Thiago Andrade & Gabriel Reis</span>
     </div>
   </div>
 </footer>
